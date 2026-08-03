@@ -3,7 +3,7 @@
 A secure, multi-method smart door lock system built with an ESP32 microcontroller, featuring biometric and PIN-based authentication, real-time logging, and remote control capabilities via a Flutter mobile application.
 
 ## Hardware Architecture
-- **Microcontroller**: ESP32 (NodeMCU) - Handles core logic, Wi-Fi connectivity, and local HTTP server hosting.
+- **Microcontroller**: ESP32 (NodeMCU) - Handles core logic.
 - **Biometric Scanner**: AS608 Fingerprint Sensor (UART communication).
 - **Keypad Input**: 3x4 Matrix Keypad for PIN-code authentication (4-6 digits).
 - **Display**: LCD 1602 integrated with an I2C Module for local system status alerts.
