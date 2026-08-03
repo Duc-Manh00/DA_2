@@ -17,8 +17,3 @@ A secure, multi-method smart door lock system built with an ESP32 microcontrolle
 - **Anti-Brute Force Security**: Built-in consecutive failed entry protection that triggers a buzzer alarm and progressive system lockouts (5s to 10s cooldowns).
 - **Real-Time Access Logs**: Tracks the last 10 historical events (successful entries, failed attempts, and API triggers) viewable directly on the mobile app.
 
-## API Endpoints
-The mobile application communicates with the ESP32 server via the following authenticated HTTP GET requests:
-- `/unlock?key=YOUR_API_KEY` - Safely triggers the relay to retract the solenoid lock.
-- `/lock?key=YOUR_API_KEY` - Explicitly locks down the system locally.
-- `/logs?key=YOUR_API_KEY` - Fetches the live historical activity stream.
