@@ -1,4 +1,4 @@
-# Smart Access Control System (ESP32 & Flutter App)
+# Password and Fingerprint Door Unlocking System (ESP32 & Flutter App)
 
 A secure, multi-method smart door lock system built with an ESP32 microcontroller, featuring biometric and PIN-based authentication, real-time logging, and remote control capabilities via a Flutter mobile application.
 
